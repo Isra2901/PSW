@@ -1,0 +1,8 @@
+Tabla,nombre columna,Tipo de dato,Se puede anular,Valor por omision
+users,id,bigint,NO,
+,username,text,NO,
+,email,text,NO,
+,password_hash,text,NO,
+,created_at,timestamp with time zone,YES,now()
+,updated_at,timestamp with time zone,YES,now()
+,role_id,bigint,YES,
